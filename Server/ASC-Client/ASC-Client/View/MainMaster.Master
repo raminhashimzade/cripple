@@ -1,0 +1,104 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MainMaster.Master.cs" Inherits="AileMedia.MasterPages.frm_Main" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>"ASC"</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 99%;
+        }
+        .style3
+        {
+            width: 83%;
+        }
+        .style7
+        {
+            width: 16%;
+        }
+        .style8
+        {
+            width: 100%;
+            height: 100%;
+        }
+        .myst {
+            background: url('/Images/Pagebackground3.png') no-repeat; 
+            background-size: 100%;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <form id="form_WelcomeMaster" runat="server">
+    <table class="style1">
+        <tr>
+            <td background="/Images/header3.png">
+                <table class="style1">
+                    <tr>
+                        <td class="style3">
+                            <strong><em><span style="font-size: large; color: #E4E4E4;">
+                                <asp:Label ID="cmp_Label_UserName0" runat="server" Font-Bold="True" Font-Italic="True"
+                                    Font-Overline="False" Font-Size="Larger" Font-Strikeout="False" Font-Underline="False"
+                                    Text="ASC" ForeColor="#8A0000" BorderColor="Black"></asp:Label>
+                            </span></em></strong>
+                        </td>
+                        <td class="style7" align="right">
+                            <a href="/View/frmLogin.aspx" style="font-weight: 700">
+                                    <span style="font-size: medium; font-weight: 700;">ÇIXIŞ</span>
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+                <table class="style1">
+                    <tr>
+                        <td align="left" class="style3" valign="top">
+                            <strong><em><span style="font-size: small; color: #E4E4E4;">
+                                <asp:Label ID="cmp_Label_Build" runat="server" Font-Bold="True" Font-Italic="False"
+                                    Font-Overline="False" Font-Size="Small" Font-Strikeout="False" Font-Underline="False"
+                                    Text="Build :" ForeColor="Black"></asp:Label>
+                            </span></em></strong>
+                        </td>
+                        <td class="style7" valign="bottom" align="right" nowrap="nowrap">
+                            <strong><em><span style="font-size: small; color: #E4E4E4;">
+                                
+                            </span></em></strong>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="left" class="style3" valign="bottom">
+                            <strong><em><span style="font-size: large; color: #E4E4E4;">
+                                <asp:Label ID="cmp_Label_UserName" runat="server" Font-Bold="True" Font-Italic="False"
+                                    Font-Overline="False" Font-Size="Medium" Font-Strikeout="False" Font-Underline="False"
+                                    Text="UserName" ForeColor="Black"></asp:Label>
+                            </span></em></strong>
+                        </td>
+                        <td class="style7" valign="bottom" align="right" nowrap="nowrap">
+                            <strong><em><span style="font-size: small; color: #E4E4E4;">
+                                
+                            </span></em></strong>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <asp:ScriptManager ID="ScriptManager1" runat="server">
+    </asp:ScriptManager>
+            <table class="style8">
+                <tr>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                </tr>
+            </table>
+   </form>
+</body>
+</html>

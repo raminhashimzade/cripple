@@ -1,0 +1,4 @@
+ftp  userName="ramintest2\$ramintest2" userPWD="FbCDpD4vKuMyGyDpxPwtPz0fnbDuH1mdfrzEuvrdQGcXQD8Dyv2Zrg9E2wMf" 
+
+
+http://startandroid.ru/ru/uroki/vse-uroki-spiskom/165-urok-100-service-intentservice-foreground-avtozagruzka-servisa.html
